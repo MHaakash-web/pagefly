@@ -1,0 +1,51 @@
+@import "./resets";
+@import "./buttons";
+
+// @function weight($weight-name) {
+//   @return map-get($font-weights, $weight-name);
+// }
+
+// body {
+//   background-color: $accent-color;
+//   color: $text-color;
+//   font-weight: weight(bold);
+// }
+
+@import "./homepage";
+@import "./features";
+@import "./pricing";
+@import "./affiliate";
+
+@media (max-width: 767px) {
+  .hidden {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+
+    .mb-4 {
+      margin-bottom: 10px !important;
+    }
+
+    .nav {
+      margin-bottom: 50px;
+      i {
+        text-align: center;
+      }
+    }
+  }
+
+  .credits {
+    padding: 20px 0px;
+    .row {
+      flex-direction: column-reverse;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .socials {
+      padding: 10px 0px;
+    }
+  }
+}

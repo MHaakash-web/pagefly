@@ -1,0 +1,70 @@
+.affiliate-body {
+  .earn-money-section {
+    .shadow {
+      box-shadow: 0 0.7rem 1.2rem rgba(0, 0, 0, 0.05) !important;
+    }
+
+    .image-side {
+      z-index: 1;
+    }
+
+    .text-side {
+      z-index: 0;
+    }
+  }
+
+  .show-me-the-money-section {
+    margin: 100px 0px;
+
+    p {
+      padding-right: 10%;
+    }
+
+    span {
+      font-size: 100px;
+      font-weight: 700;
+      opacity: 0.1;
+      color: #666666;
+    }
+
+    .img-part {
+      .card {
+        height: 300px;
+        background: url(https://cdn.shopify.com/s/files/1/0090/9236/6436/t/3/assets/bg-affiliate-calculator.svg)
+          center center no-repeat;
+        background-size: contain;
+        background-position: center;
+        color: black;
+        font-weight: 400;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+
+        .btn-check:focus + .btn-secondary,
+        .btn-secondary:focus {
+          outline: none;
+          box-shadow: none !important;
+        }
+
+        button {
+          color: #5f67ff;
+
+          :focus {
+            outline: none;
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media (max-width: 767px) {
+//   .affiliate-body {
+//     .earn-money-section {
+//       .shadow {
+//         box-shadow: none;
+//       }
+//     }
+//   }
+// }

@@ -1,0 +1,31 @@
+// $primary-color: #999;
+// $accent-color: black;
+// $text-color: white;
+
+// $font-weights: (
+//   "regular": 400,
+//   "medium": 600,
+//   "bold": 700,
+// );
+
+.color-text-button {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  &:hover {
+    color: #5f67ff;
+  }
+}
+
+.white-text-button {
+  background-color: #5f67ff;
+  padding: 15px 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: #464cc5;
+    color: white;
+  }
+}
